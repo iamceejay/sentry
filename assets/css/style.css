@@ -1,0 +1,101 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    font-family: 'Istok Web', sans-serif !important;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-unit-warapper {
+    /*background-image: url(../img/sentry-min.jpeg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-unit, .create-account {
+    position: relative;
+    height: 100vh;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.hero-unit .container {
+    padding-top: 25vh;
+}
+
+.hero-unit h1 {
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+.create-account-wrapper {
+    /*background-image: url(../img/sentry-create-account-min.jpeg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.create-account {
+    height: 100% !important;
+}
+
+.create-account .container {
+    padding-top: 15vh;
+}
+
+.create-account h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.create-account .panel h1, .create-account .panel p {
+    text-align: center;
+}
+
+.create-account .lead, .create-account h2 {
+    margin-top: 50px;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.builder-sidebar {
+    position: fixed; 
+    top: 50px; 
+    bottom: 0; 
+    right: 0; 
+    display: block; 
+    padding: 0;
+}
+
+.clear-space {
+    margin-top: 10px;
+}
+
+canvas {
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-image: url(../img/sentry-create-account-min.jpeg) !important;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.9);
+}
+
+.chart-print {
+    margin-top: 190px;
+}
